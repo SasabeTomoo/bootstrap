@@ -3,6 +3,9 @@ class BlogsController < ApplicationController
 
   # GET /blogs
   # GET /blogs.json
+  def top
+  end
+  
   def index
     @blogs = Blog.all
   end
